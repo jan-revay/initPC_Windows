@@ -8,8 +8,8 @@
 Set-PSDebug -Trace 1
 $ErrorActionPreference = "Stop"
 
-. $PSScriptRoot/../DistroAgnostic/git_config.sh.ps1
-. $PSScriptRoot/../DistroAgnostic/mkdirs.ps1
+. ./git_config.ps1
+. ./mkdirs.ps1
 
 # Todo consider adding this only for current user so that I don't need sudo.
 # Maybe that would also be safer.
