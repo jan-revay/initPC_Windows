@@ -1,6 +1,7 @@
 Set-PSDebug -Trace 1
 $ErrorActionPreference = "Stop"
-
+# TODO try https://documentation.ubuntu.com/wsl/latest/howto/cloud-init/
+# or see https://github.com/microsoft/WSL/issues/10386#issuecomment-1935617178
 # TODO - don't go into the WSL instance (that interrupts the init script)
 wsl --install --distribution Ubuntu --no-launch
 # TODO - see https://github.com/microsoft/WSL/issues/3369
